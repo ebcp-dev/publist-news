@@ -20,6 +20,7 @@ class News extends Component {
   }
 
   componentDidMount() {
+    // Get request to api
     let url = apiConfig.url;
     let token = apiConfig.token;
     axios
@@ -93,6 +94,7 @@ class News extends Component {
         </div>
       );
     } else {
+      // Loading spinner while waiting for data
       return (
         <div className="sk-circle">
           <style jsx>{NewsStyle}</style>

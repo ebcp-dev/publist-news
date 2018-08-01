@@ -2,16 +2,20 @@ import React from 'react';
 
 const Headline = props => {
   let { headline } = props;
+  // Default img source in case of error
   const defaultImg =
     'https://cdn.pixabay.com/photo/2016/02/01/00/56/news-1172463_1280.jpg';
+  // Parse publish date of article
   let publishedDate = new Date(headline.published_at);
   let published = publishedDate.toString();
 
   const listAuthors = authors => {
     if (authors) {
+      // List array of authors as comma separated text
       let authorsStr = authors.join(', ');
       return 'by ' + authorsStr;
     } else {
+      // Empty string if no authors is null
       return '';
     }
   };

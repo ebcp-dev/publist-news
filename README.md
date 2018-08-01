@@ -16,4 +16,4 @@
 
 ## TODO:
 
-- Add Jest unit tests.
+- Test React components with Jest.
