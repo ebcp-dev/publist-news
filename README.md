@@ -7,7 +7,7 @@
 - React
 - Next.js
 - axios
-- MDBootstrap (https://mdbootstrap.com/)
+- [MDBootstrap](https://mdbootstrap.com/)
 
 ## Deployment:
 
