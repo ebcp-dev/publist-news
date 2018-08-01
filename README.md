@@ -11,7 +11,8 @@
 
 ## Deployment:
 
-- Deploy to Heroku
+- Added `"heroku-postbuild": "npm run build"` to package.json.
+- Deployed to Heroku via GitHub (https://publistnews.herokuapp.com/)
 
 ## TODO:
 
