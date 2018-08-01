@@ -1,6 +1,6 @@
 # Publist News
 
-####### A UI for querying news headlines from the Publist.ai API.
+###### A UI for querying news headlines from the Publist.ai API.
 
 ## Created with:
 
