@@ -1,0 +1,20 @@
+{
+  "name": "publist-news",
+  "version": "1.0.0",
+  "description": "A UI made with React and Next for querying data from the Publist.ai API.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "npm run build"
+  },
+  "author": "Earl Perez",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "next": "^6.1.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  }
+}
